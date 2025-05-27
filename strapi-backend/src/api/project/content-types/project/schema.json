@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "docId": {
+      "type": "string",
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "projectStatus": {
+      "type": "enumeration",
+      "enum": [
+        "in_progress",
+        "done",
+        "hold"
+      ]
+    },
+    "tags": {
+      "type": "text"
+    },
+    "releasedDate": {
+      "type": "date"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  }
+}
