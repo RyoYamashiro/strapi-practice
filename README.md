@@ -24,7 +24,7 @@ strapi_practice/
 ### 1. このリポジトリをクローン
 
 ```bash
-git clone https://github.com/RyoYamashiro/strapi-practice.git
+git clone https://github.com/your-username/strapi-practice.git
 cd strapi-practice
 ```
 
@@ -89,3 +89,12 @@ npm run dev
 ## 📅 更新履歴
 
 - 2025/05/26: 初期構成（Strapi + Next.js）完成＆プッシュ 🎉
+
+
+---
+
+## 🖼️ 表示イメージ
+
+このアプリを起動すると、以下のようにStrapiから取得したプロジェクト一覧が表示されます：
+
+![表示イメージ](sample-ui.png)
