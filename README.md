@@ -24,7 +24,7 @@ strapi_practice/
 ### 1. このリポジトリをクローン
 
 ```bash
-git clone https://github.com/your-username/strapi-practice.git
+git clone https://github.com/RyoYamashiro/strapi-practice.git
 cd strapi-practice
 ```
 
